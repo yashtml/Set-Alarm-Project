@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALarm Clock</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+    <div id="container">
+        <!-- set a time -->
+        <div id="present-time">
+            <p id="clock"></p>
+            <!-- <div id="yash">
+            </div> -->
+        </div>
+        <!-- select a value to set alarm -->
+        <div class="settime">
+            <!-- <div class="time"> -->
+                <div class="column">
+                    <select>
+                        <option value="Hr" selected hidden>hr</option>
+                    </select>
+                </div>
+                <div class="column">
+                    <select>
+                        <option value="Min" selected hidden>min</option>
+                    </select>
+                </div>
+                <div class="column">
+                    <select>
+                        <option value="Sec" selected hidden>sec</option>
+                    </select>
+                </div>
+                <div class="column">
+                    <select>
+                        <option value="Am" selected hidden>AM</option>
+                    </select>
+                </div>
+            <!-- </div> -->
+            <!-- To set a list of alarms  -->
+            <div id="setrow">
+                <button>Set-Alarm</button>
+            </div>
+        </div>
+        <div>
+            <h3 class="listofalarms">Alarms</h3>
+            <ul id="list"> </ul>
+        </div>
+    </div>
+    
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
